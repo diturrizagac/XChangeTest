@@ -20,7 +20,7 @@ final class OnboardingRouter {
 
 extension OnboardingRouter: OnboardingRouterProtocol {
     func showLogin() {
-        let module = moduleFactory.makeOnboarding(with: navigationController)
+        let module = moduleFactory.makeAuthentication(with: navigationController)
         if let viewController = module.assemble() {
             navigationController.pushViewController(viewController, animated: true)
         }

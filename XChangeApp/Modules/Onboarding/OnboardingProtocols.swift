@@ -6,7 +6,6 @@
 //
 
 
-
 // MARK: - View
 typealias OnboardingViewProtocol = OnboardingViewable & OnboardingViewConfigurable
 

@@ -37,11 +37,9 @@ struct ApplicationLoader {
     
     private func setRootViewController(_ viewController: UIViewController?) {
         window.rootViewController = navigationController
-        
         if let viewController = viewController {
             navigationController.pushViewController(viewController, animated: true)
         }
-        
         window.makeKeyAndVisible()
     }
 }

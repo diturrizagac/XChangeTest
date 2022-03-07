@@ -7,6 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B366613327D0FF32008D1DCB /* SignUpProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B366613227D0FF32008D1DCB /* SignUpProtocols.swift */; };
+		B366613527D0FF3B008D1DCB /* SignUpModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B366613427D0FF3B008D1DCB /* SignUpModule.swift */; };
+		B366613727D0FF42008D1DCB /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B366613627D0FF42008D1DCB /* SignUpView.swift */; };
+		B366613927D0FF4A008D1DCB /* SignUpPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B366613827D0FF4A008D1DCB /* SignUpPresenter.swift */; };
+		B366613B27D0FF52008D1DCB /* SignUpRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B366613A27D0FF52008D1DCB /* SignUpRouter.swift */; };
+		B366613D27D0FF5C008D1DCB /* SignUpInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B366613C27D0FF5C008D1DCB /* SignUpInteractor.swift */; };
+		B366614027D1B575008D1DCB /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B366613F27D1B575008D1DCB /* TabBarView.swift */; };
+		B366614B27D1B8BF008D1DCB /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B366614A27D1B8BF008D1DCB /* SettingsView.swift */; };
+		B366614D27D1B8D4008D1DCB /* CryptoExchangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B366614C27D1B8D4008D1DCB /* CryptoExchangeView.swift */; };
+		B366614F27D1B8DF008D1DCB /* FiatExchangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B366614E27D1B8DF008D1DCB /* FiatExchangeView.swift */; };
+		B366DBD627D542BD0097D6A4 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = B366DBD527D542BD0097D6A4 /* Endpoints.swift */; };
+		B366DBDE27D54FA60097D6A4 /* FiatExchangeEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B366DBDD27D54FA60097D6A4 /* FiatExchangeEntity.swift */; };
+		B366DBE027D54FAE0097D6A4 /* FiatExchangePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B366DBDF27D54FAE0097D6A4 /* FiatExchangePresenter.swift */; };
+		B366DBE227D54FC40097D6A4 /* FiatExchangeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B366DBE127D54FC40097D6A4 /* FiatExchangeInteractor.swift */; };
+		B366DBE427D54FDA0097D6A4 /* FiatExchangeModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B366DBE327D54FDA0097D6A4 /* FiatExchangeModule.swift */; };
+		B366DBE627D54FE40097D6A4 /* FiatExchangeProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B366DBE527D54FE40097D6A4 /* FiatExchangeProtocols.swift */; };
+		B366DBE827D54FF10097D6A4 /* FiatExchangeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B366DBE727D54FF10097D6A4 /* FiatExchangeRouter.swift */; };
+		B366DBEA27D564650097D6A4 /* URLRequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B366DBE927D564650097D6A4 /* URLRequestFactory.swift */; };
+		B366DBEC27D5657A0097D6A4 /* NetworkSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = B366DBEB27D5657A0097D6A4 /* NetworkSession.swift */; };
+		B366DBEE27D565A00097D6A4 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B366DBED27D565A00097D6A4 /* NetworkService.swift */; };
+		B366DBF227D567960097D6A4 /* GetNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B366DBF127D567960097D6A4 /* GetNetworkService.swift */; };
+		B366DBF427D567C80097D6A4 /* CreateNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B366DBF327D567C80097D6A4 /* CreateNetworkService.swift */; };
+		B366DBF827D56A230097D6A4 /* ExchangeRateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B366DBF727D56A230097D6A4 /* ExchangeRateService.swift */; };
+		B366DBFA27D56A2E0097D6A4 /* CryptingUpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B366DBF927D56A2E0097D6A4 /* CryptingUpService.swift */; };
+		B366DBFD27D56DAD0097D6A4 /* GlobalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B366DBFC27D56DAD0097D6A4 /* GlobalData.swift */; };
+		B366DC0027D582FB0097D6A4 /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B366DBFF27D582FB0097D6A4 /* AlertHelper.swift */; };
+		B366DC0227D586390097D6A4 /* GenericTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B366DC0127D586390097D6A4 /* GenericTableViewCell.swift */; };
+		B366DC0427D588650097D6A4 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B366DC0327D588650097D6A4 /* UITableView+Extension.swift */; };
+		B366DC0627D588AB0097D6A4 /* ReusableIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B366DC0527D588AB0097D6A4 /* ReusableIdentifier.swift */; };
+		B366DC0827D588E40097D6A4 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B366DC0727D588E40097D6A4 /* UIView+Extension.swift */; };
+		B366DC0A27D594FF0097D6A4 /* TabBarModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B366DC0927D594FF0097D6A4 /* TabBarModule.swift */; };
+		B366DC0C27D595650097D6A4 /* TabBarRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B366DC0B27D595650097D6A4 /* TabBarRouter.swift */; };
+		B366DC1027D595AF0097D6A4 /* TabBarProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B366DC0F27D595AF0097D6A4 /* TabBarProtocols.swift */; };
+		B366DC1227D597490097D6A4 /* TabBarPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B366DC1127D597490097D6A4 /* TabBarPresenter.swift */; };
 		B38E957327CF0569003F0B93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38E957227CF0569003F0B93 /* AppDelegate.swift */; };
 		B38E957527CF0569003F0B93 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38E957427CF0569003F0B93 /* SceneDelegate.swift */; };
 		B38E957727CF0569003F0B93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38E957627CF0569003F0B93 /* ViewController.swift */; };
@@ -28,9 +62,46 @@
 		B38F52D027CFF9D80032EABB /* LoginModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38F52CF27CFF9D80032EABB /* LoginModule.swift */; };
 		B38F52D227CFF9E20032EABB /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38F52D127CFF9E20032EABB /* LoginPresenter.swift */; };
 		B38F52D427CFF9E90032EABB /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38F52D327CFF9E90032EABB /* LoginRouter.swift */; };
+		B38F52D727D01C9E0032EABB /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38F52D627D01C9E0032EABB /* UIButton+Extension.swift */; };
+		B38F52D927D026860032EABB /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38F52D827D026860032EABB /* LoginInteractor.swift */; };
+		B38F52DB27D02B390032EABB /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38F52DA27D02B390032EABB /* UITextField+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B366613227D0FF32008D1DCB /* SignUpProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpProtocols.swift; sourceTree = "<group>"; };
+		B366613427D0FF3B008D1DCB /* SignUpModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpModule.swift; sourceTree = "<group>"; };
+		B366613627D0FF42008D1DCB /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		B366613827D0FF4A008D1DCB /* SignUpPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPresenter.swift; sourceTree = "<group>"; };
+		B366613A27D0FF52008D1DCB /* SignUpRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpRouter.swift; sourceTree = "<group>"; };
+		B366613C27D0FF5C008D1DCB /* SignUpInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpInteractor.swift; sourceTree = "<group>"; };
+		B366613F27D1B575008D1DCB /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		B366614A27D1B8BF008D1DCB /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B366614C27D1B8D4008D1DCB /* CryptoExchangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoExchangeView.swift; sourceTree = "<group>"; };
+		B366614E27D1B8DF008D1DCB /* FiatExchangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiatExchangeView.swift; sourceTree = "<group>"; };
+		B366DBD527D542BD0097D6A4 /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		B366DBDD27D54FA60097D6A4 /* FiatExchangeEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiatExchangeEntity.swift; sourceTree = "<group>"; };
+		B366DBDF27D54FAE0097D6A4 /* FiatExchangePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiatExchangePresenter.swift; sourceTree = "<group>"; };
+		B366DBE127D54FC40097D6A4 /* FiatExchangeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiatExchangeInteractor.swift; sourceTree = "<group>"; };
+		B366DBE327D54FDA0097D6A4 /* FiatExchangeModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiatExchangeModule.swift; sourceTree = "<group>"; };
+		B366DBE527D54FE40097D6A4 /* FiatExchangeProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiatExchangeProtocols.swift; sourceTree = "<group>"; };
+		B366DBE727D54FF10097D6A4 /* FiatExchangeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiatExchangeRouter.swift; sourceTree = "<group>"; };
+		B366DBE927D564650097D6A4 /* URLRequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLRequestFactory.swift; sourceTree = "<group>"; };
+		B366DBEB27D5657A0097D6A4 /* NetworkSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkSession.swift; sourceTree = "<group>"; };
+		B366DBED27D565A00097D6A4 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		B366DBF127D567960097D6A4 /* GetNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetNetworkService.swift; sourceTree = "<group>"; };
+		B366DBF327D567C80097D6A4 /* CreateNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNetworkService.swift; sourceTree = "<group>"; };
+		B366DBF727D56A230097D6A4 /* ExchangeRateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRateService.swift; sourceTree = "<group>"; };
+		B366DBF927D56A2E0097D6A4 /* CryptingUpService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptingUpService.swift; sourceTree = "<group>"; };
+		B366DBFC27D56DAD0097D6A4 /* GlobalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalData.swift; sourceTree = "<group>"; };
+		B366DBFF27D582FB0097D6A4 /* AlertHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHelper.swift; sourceTree = "<group>"; };
+		B366DC0127D586390097D6A4 /* GenericTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericTableViewCell.swift; sourceTree = "<group>"; };
+		B366DC0327D588650097D6A4 /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
+		B366DC0527D588AB0097D6A4 /* ReusableIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableIdentifier.swift; sourceTree = "<group>"; };
+		B366DC0727D588E40097D6A4 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		B366DC0927D594FF0097D6A4 /* TabBarModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarModule.swift; sourceTree = "<group>"; };
+		B366DC0B27D595650097D6A4 /* TabBarRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarRouter.swift; sourceTree = "<group>"; };
+		B366DC0F27D595AF0097D6A4 /* TabBarProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarProtocols.swift; sourceTree = "<group>"; };
+		B366DC1127D597490097D6A4 /* TabBarPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarPresenter.swift; sourceTree = "<group>"; };
 		B38E956F27CF0569003F0B93 /* XChangeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XChangeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B38E957227CF0569003F0B93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B38E957427CF0569003F0B93 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,6 +125,9 @@
 		B38F52CF27CFF9D80032EABB /* LoginModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModule.swift; sourceTree = "<group>"; };
 		B38F52D127CFF9E20032EABB /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
 		B38F52D327CFF9E90032EABB /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		B38F52D627D01C9E0032EABB /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		B38F52D827D026860032EABB /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		B38F52DA27D02B390032EABB /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +141,111 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B366613127D0FF15008D1DCB /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				B366613227D0FF32008D1DCB /* SignUpProtocols.swift */,
+				B366613427D0FF3B008D1DCB /* SignUpModule.swift */,
+				B366613627D0FF42008D1DCB /* SignUpView.swift */,
+				B366613C27D0FF5C008D1DCB /* SignUpInteractor.swift */,
+				B366613827D0FF4A008D1DCB /* SignUpPresenter.swift */,
+				B366613A27D0FF52008D1DCB /* SignUpRouter.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		B366613E27D1B55B008D1DCB /* TabBarView */ = {
+			isa = PBXGroup;
+			children = (
+				B366DC0F27D595AF0097D6A4 /* TabBarProtocols.swift */,
+				B366DC0927D594FF0097D6A4 /* TabBarModule.swift */,
+				B366613F27D1B575008D1DCB /* TabBarView.swift */,
+				B366DC1127D597490097D6A4 /* TabBarPresenter.swift */,
+				B366DC0B27D595650097D6A4 /* TabBarRouter.swift */,
+			);
+			path = TabBarView;
+			sourceTree = "<group>";
+		};
+		B366614727D1B87B008D1DCB /* FiatView */ = {
+			isa = PBXGroup;
+			children = (
+				B366DBE527D54FE40097D6A4 /* FiatExchangeProtocols.swift */,
+				B366DBE327D54FDA0097D6A4 /* FiatExchangeModule.swift */,
+				B366614E27D1B8DF008D1DCB /* FiatExchangeView.swift */,
+				B366DBE127D54FC40097D6A4 /* FiatExchangeInteractor.swift */,
+				B366DBDF27D54FAE0097D6A4 /* FiatExchangePresenter.swift */,
+				B366DBDD27D54FA60097D6A4 /* FiatExchangeEntity.swift */,
+				B366DBE727D54FF10097D6A4 /* FiatExchangeRouter.swift */,
+			);
+			path = FiatView;
+			sourceTree = "<group>";
+		};
+		B366614827D1B89C008D1DCB /* CryptoView */ = {
+			isa = PBXGroup;
+			children = (
+				B366614C27D1B8D4008D1DCB /* CryptoExchangeView.swift */,
+			);
+			path = CryptoView;
+			sourceTree = "<group>";
+		};
+		B366614927D1B8A4008D1DCB /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				B366614A27D1B8BF008D1DCB /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		B366DBD427D542930097D6A4 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				B366DBFB27D56DA10097D6A4 /* Global */,
+				B366DBF627D569BD0097D6A4 /* Core */,
+				B366DBF527D569B70097D6A4 /* Services */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		B366DBF527D569B70097D6A4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B366DBF727D56A230097D6A4 /* ExchangeRateService.swift */,
+				B366DBF927D56A2E0097D6A4 /* CryptingUpService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B366DBF627D569BD0097D6A4 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B366DBD527D542BD0097D6A4 /* Endpoints.swift */,
+				B366DBEB27D5657A0097D6A4 /* NetworkSession.swift */,
+				B366DBE927D564650097D6A4 /* URLRequestFactory.swift */,
+				B366DBED27D565A00097D6A4 /* NetworkService.swift */,
+				B366DBF327D567C80097D6A4 /* CreateNetworkService.swift */,
+				B366DBF127D567960097D6A4 /* GetNetworkService.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		B366DBFB27D56DA10097D6A4 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				B366DBFC27D56DAD0097D6A4 /* GlobalData.swift */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		B366DBFE27D582BF0097D6A4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B366DBFF27D582FB0097D6A4 /* AlertHelper.swift */,
+				B366DC0127D586390097D6A4 /* GenericTableViewCell.swift */,
+				B366DC0527D588AB0097D6A4 /* ReusableIdentifier.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		B38E956627CF0568003F0B93 = {
 			isa = PBXGroup;
 			children = (
@@ -86,7 +265,10 @@
 		B38E957127CF0569003F0B93 /* XChangeApp */ = {
 			isa = PBXGroup;
 			children = (
+				B366DBFE27D582BF0097D6A4 /* Utils */,
+				B38F52D527D01C720032EABB /* Extension */,
 				B38F52B127CF08F40032EABB /* App */,
+				B366DBD427D542930097D6A4 /* Networking */,
 				B38F52B227CF09150032EABB /* Modules */,
 				B38E957627CF0569003F0B93 /* ViewController.swift */,
 				B38E957827CF0569003F0B93 /* Main.storyboard */,
@@ -111,6 +293,11 @@
 		B38F52B227CF09150032EABB /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				B366614927D1B8A4008D1DCB /* Settings */,
+				B366614827D1B89C008D1DCB /* CryptoView */,
+				B366614727D1B87B008D1DCB /* FiatView */,
+				B366613E27D1B55B008D1DCB /* TabBarView */,
+				B366613127D0FF15008D1DCB /* SignUp */,
 				B38F52CA27CFF7210032EABB /* Login */,
 				B38F52B727CF0BDB0032EABB /* Onboarding */,
 			);
@@ -146,10 +333,22 @@
 				B38F52CD27CFF8C00032EABB /* LoginProtocols.swift */,
 				B38F52CF27CFF9D80032EABB /* LoginModule.swift */,
 				B38F52CB27CFF8650032EABB /* LoginView.swift */,
+				B38F52D827D026860032EABB /* LoginInteractor.swift */,
 				B38F52D127CFF9E20032EABB /* LoginPresenter.swift */,
 				B38F52D327CFF9E90032EABB /* LoginRouter.swift */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		B38F52D527D01C720032EABB /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B38F52D627D01C9E0032EABB /* UIButton+Extension.swift */,
+				B38F52DA27D02B390032EABB /* UITextField+Extension.swift */,
+				B366DC0327D588650097D6A4 /* UITableView+Extension.swift */,
+				B366DC0727D588E40097D6A4 /* UIView+Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,23 +423,60 @@
 			buildActionMask = 2147483647;
 			files = (
 				B38F52BB27CF0C260032EABB /* OnboardingProtocols.swift in Sources */,
+				B366614027D1B575008D1DCB /* TabBarView.swift in Sources */,
+				B366613327D0FF32008D1DCB /* SignUpProtocols.swift in Sources */,
 				B38E957727CF0569003F0B93 /* ViewController.swift in Sources */,
+				B366614D27D1B8D4008D1DCB /* CryptoExchangeView.swift in Sources */,
+				B366DC0227D586390097D6A4 /* GenericTableViewCell.swift in Sources */,
+				B366DBE227D54FC40097D6A4 /* FiatExchangeInteractor.swift in Sources */,
+				B366DC0A27D594FF0097D6A4 /* TabBarModule.swift in Sources */,
+				B366DBFD27D56DAD0097D6A4 /* GlobalData.swift in Sources */,
 				B38F52B627CF0AF50032EABB /* AppModule.swift in Sources */,
+				B366613727D0FF42008D1DCB /* SignUpView.swift in Sources */,
 				B38F52BF27CF0C520032EABB /* OnboardingPresenter.swift in Sources */,
+				B38F52D727D01C9E0032EABB /* UIButton+Extension.swift in Sources */,
+				B366DC0027D582FB0097D6A4 /* AlertHelper.swift in Sources */,
+				B366613527D0FF3B008D1DCB /* SignUpModule.swift in Sources */,
+				B366613B27D0FF52008D1DCB /* SignUpRouter.swift in Sources */,
+				B366613927D0FF4A008D1DCB /* SignUpPresenter.swift in Sources */,
 				B38F52C927CF164A0032EABB /* ExitPageView.swift in Sources */,
+				B366DC0627D588AB0097D6A4 /* ReusableIdentifier.swift in Sources */,
 				B38F52B427CF0AB80032EABB /* ApplicationLoader.swift in Sources */,
 				B38F52CE27CFF8C00032EABB /* LoginProtocols.swift in Sources */,
+				B38F52D927D026860032EABB /* LoginInteractor.swift in Sources */,
+				B366DBE427D54FDA0097D6A4 /* FiatExchangeModule.swift in Sources */,
+				B38F52DB27D02B390032EABB /* UITextField+Extension.swift in Sources */,
+				B366614F27D1B8DF008D1DCB /* FiatExchangeView.swift in Sources */,
+				B366DBEE27D565A00097D6A4 /* NetworkService.swift in Sources */,
 				B38F52C127CF0E5E0032EABB /* OnboardingRouter.swift in Sources */,
+				B366DC1027D595AF0097D6A4 /* TabBarProtocols.swift in Sources */,
+				B366DBEC27D5657A0097D6A4 /* NetworkSession.swift in Sources */,
 				B38E957327CF0569003F0B93 /* AppDelegate.swift in Sources */,
+				B366614B27D1B8BF008D1DCB /* SettingsView.swift in Sources */,
 				B38F52D227CFF9E20032EABB /* LoginPresenter.swift in Sources */,
+				B366DC0C27D595650097D6A4 /* TabBarRouter.swift in Sources */,
+				B366DC1227D597490097D6A4 /* TabBarPresenter.swift in Sources */,
 				B38F52CC27CFF8650032EABB /* LoginView.swift in Sources */,
+				B366DC0827D588E40097D6A4 /* UIView+Extension.swift in Sources */,
 				B38F52BD27CF0C440032EABB /* OnboardingView.swift in Sources */,
 				B38F52D027CFF9D80032EABB /* LoginModule.swift in Sources */,
+				B366DBDE27D54FA60097D6A4 /* FiatExchangeEntity.swift in Sources */,
 				B38F52C727CF163A0032EABB /* InformativePageView.swift in Sources */,
 				B38F52D427CFF9E90032EABB /* LoginRouter.swift in Sources */,
 				B38F52B927CF0BF40032EABB /* OnboardingModule.swift in Sources */,
+				B366DBF827D56A230097D6A4 /* ExchangeRateService.swift in Sources */,
+				B366DBE827D54FF10097D6A4 /* FiatExchangeRouter.swift in Sources */,
+				B366DBE627D54FE40097D6A4 /* FiatExchangeProtocols.swift in Sources */,
 				B38E957527CF0569003F0B93 /* SceneDelegate.swift in Sources */,
+				B366613D27D0FF5C008D1DCB /* SignUpInteractor.swift in Sources */,
+				B366DC0427D588650097D6A4 /* UITableView+Extension.swift in Sources */,
+				B366DBD627D542BD0097D6A4 /* Endpoints.swift in Sources */,
+				B366DBE027D54FAE0097D6A4 /* FiatExchangePresenter.swift in Sources */,
+				B366DBF427D567C80097D6A4 /* CreateNetworkService.swift in Sources */,
+				B366DBEA27D564650097D6A4 /* URLRequestFactory.swift in Sources */,
+				B366DBFA27D56A2E0097D6A4 /* CryptingUpService.swift in Sources */,
 				B38F52C527CF162A0032EABB /* WelcomePageView.swift in Sources */,
+				B366DBF227D567960097D6A4 /* GetNetworkService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +633,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -425,6 +662,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
